@@ -2,8 +2,8 @@
 const express = require("express");
 const app = express();
 
-app.get("/ejemplo", (req, res) => {
-    res.end("Llegaste al ejemplo");
+app.get("/", (req, res) => {
+    res.end("Llegaste a vercel");
 });
  
 app.get("/usuarios", (req, res) => {
